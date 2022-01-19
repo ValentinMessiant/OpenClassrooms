@@ -1,0 +1,164 @@
+* {
+	font-family: Verdana;
+}
+
+body {
+	/*background-color: #333333;*/
+	background: url(../image/Fond/fond_gris.jpg) no-repeat 100% 100%;
+	color: #191919;
+}
+
+.header {
+	margin: 0 auto;
+	width: 800px;
+}
+
+#headTitle {
+	color: white;
+	line-height: 240%;
+	padding-top: 25px;
+	padding-left: 25%;
+}
+
+.bordurePhoto {
+	margin:25px;
+	width:150px;
+	height:auto;
+	background:#fff;
+	border: solid black;
+	border-color: black;
+	float:left; 
+}
+
+.bordurePhoto1 {
+	border-width: 3px 4px 3px 5px;
+	border-radius:95% 4% 92% 5%/4% 95% 6% 95%;
+	transform: rotate(2deg);
+}
+
+h2 {
+	color: white;
+	margin-left: 5%;
+}
+
+.gauche {
+	width: 55%;
+	float: left;
+	margin: 2%;
+	clear: both;
+	border-right: 2px solid white;
+}
+
+.droite {
+	width: 35%;
+	float: right;
+	margin: 2%;
+}
+
+.separateur {
+	margin:  4% 8%;
+	border-bottom: 2px solid white;
+}
+
+.titreExp {
+	margin-left: 2%;
+	font-size: large;
+	font-weight: bold;
+}
+
+.sousTitreExp {
+	margin-left: 4%;
+	font-style: italic;
+}
+
+.titreEtude {
+	margin-left: 2%;
+	font-size: large;
+	font-weight: bold;
+}
+
+.sousTitreEtude {
+	margin-left: 4%;
+	font-style: italic;
+}
+
+.descEtudes, .descExp {
+	text-align: justify;
+	padding-right: 10%;
+}
+
+ .langage {
+ 	margin: 0;
+ 	margin-top: 2%;
+ 	margin-bottom: 1%;
+ 	font-size: large;
+ 	font-weight: bold;
+ 	text-align: center;
+ }
+
+.progress-bar { 
+    width: 100%;
+    height: 24px;
+    padding: 4px;
+    background-color: #191919;
+    border-radius: 16px;
+    -webkit-border-radius: 16px;
+    -moz-border-radius: 16px;
+    box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+    -webkit-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+    -moz-box-shadow: inset 0 1px 2px #000, 0 1px 0 #2b2b2b;
+}
+
+.progress-bar:before { 
+    content: '';
+    display: block;
+    position: absolute;
+    height: 24px;
+    background: #12DBFF;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.3), inset 0 -1px 3px rgba(0, 0, 0, 0.4), 0 1px 1px #000;
+}
+
+.html .progress-bar:before { 
+    width: 25%;
+}
+
+.cpp .progress-bar:before { 
+    width: 28%;
+}
+
+.csharp .progress-bar:before { 
+    width: 12%;
+}
+
+.wlangage .progress-bar:before { 
+    width: 22%;
+}
+
+.sql .progress-bar:before { 
+    width: 32%;
+}
+
+.php .progress-bar:before { 
+    width: 28%;
+}
+
+.ligneOutils {
+	padding-bottom: 6em;
+}
+
+.outils {
+	width: 33%;
+	float: left;
+	text-align: center;
+	font-size: 0.7em;
+}
+
+.imagesOutils {
+	width: 40%;
+	height: auto;
+}
